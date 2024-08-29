@@ -1,5 +1,5 @@
 import React from 'react'
-import CountdownTimer from './CountDownTimer'
+import CountdownTimer from '../countdowntimer/CountdownTimer'
 
 const MainPage = () => {
     return (
