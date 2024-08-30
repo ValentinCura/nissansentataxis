@@ -30,30 +30,30 @@ const CountDownTimer = ({ targetDate }) => {
   }, [targetDate]);
 
   return (
-    <div className="grid font-bebas grid-flow-col gap-1 text-center auto-cols-max text-5xl">
-      <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-        <span className="p-3 bg-gradient-to-b from-black via-black to-zinc-600 text-yellow-400 text-4xl font-bebas">
+    <div className="grid font-bebas grid-flow-col gap-1 md:gap-9 text-center auto-cols-max text-5xl">
+      <div className="flex flex-col p-2 bg-neutral  text-neutral-content">
+        <span className="p-3 flex items-center justify-center  md:w-[150px] md:h-[160px] md:p-5 bg-gradient-to-b via-inherit border-yellow-400 border-opacity-5 to-black text-yellow-400 md:text-9xl text-4xl font-abril">
           {timeRemaining.days}
         </span>
-        <p className='text-2xl'>Días</p>
+        <p className='text-xl'>Días</p>
       </div>
       <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-        <span className="p-3 bg-gradient-to-b from-black via-black to-zinc-600 text-yellow-400 text-4xl font-bebas">
-          {timeRemaining.hours}
+      <span className="p-3 flex items-center justify-center  md:w-[150px] md:h-[160px] md:p-5 bg-gradient-to-b via-inherit border-yellow-400 border-opacity-5 to-black text-yellow-400 md:text-9xl text-4xl font-abril">
+      {timeRemaining.hours}
         </span>
-        <p className='text-2xl'>Horas</p>
+        <p className='text-xl'>Horas</p>
       </div>
       <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-        <span className="p-3 bg-gradient-to-b from-black via-black to-zinc-600 text-yellow-400 text-4xl font-bebas">
-          {timeRemaining.minutes}
+      <span className="p-3 flex items-center justify-center  md:w-[150px] md:h-[160px] md:p-5 bg-gradient-to-b via-inherit border-yellow-400 border-opacity-5 to-black text-yellow-400 md:text-9xl text-4xl font-abril">
+      {timeRemaining.minutes}
         </span>
-        <p className='text-2xl'>Minutos</p>
+        <p className='text-xl'>Minutos</p>
       </div>
       <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
-        <span className="p-3 bg-gradient-to-b from-black via-black to-zinc-600 text-yellow-400 text-4xl font-bebas">
-          {timeRemaining.seconds}
+      <span className="p-3 flex items-center justify-center  md:w-[150px] md:h-[160px] md:p-5 bg-gradient-to-b via-inherit border-yellow-400 border-opacity-5 to-black text-yellow-400 md:text-9xl text-4xl font-abril">
+      {timeRemaining.seconds}
         </span>
-        <p className='text-2xl'>Seg</p>
+        <p className='text-xl'>Seg</p>
       </div>
     </div>
 
