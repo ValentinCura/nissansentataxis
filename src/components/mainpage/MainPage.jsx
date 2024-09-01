@@ -52,10 +52,10 @@ const MainPage = () => {
                         <p className="text-white font-anton text-[17px]">CONSULTAR</p>
                     </div>
                 </a>
-                <a className="flex justify-center items-center">
+                <a className="flex justify-center items-center" onClick={() => setShowForm(prevShowForm => !prevShowForm)}>
                     <div className="flex justify-between items-center w-[300px] border-solid border-b-4 border border-white p-3">
                         <FaCalendarCheck className="text-white filter-none text-[50px]" />
-                        <p className="text-white font-anton text-[17px]" onClick={() => setShowForm(prevShowForm => !prevShowForm)}>INSCRIBIRSE AL EVENTO</p>
+                        <p className="text-white font-anton text-[17px]" >INSCRIBIRSE AL EVENTO</p>
                     </div>
                 </a>
             </div>
