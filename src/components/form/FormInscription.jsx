@@ -26,11 +26,11 @@ const FormInscription = () => {
     const handleTelefonoChange = (e) => setTelefono(e.target.value);
 
     const handleSubmit = (e) => {
-        const mensaje = `Hola, deseo inscribirme en el evento del dia 14/09 en el Autodromo Vip.
-                     Nombre: ${nombre}.
-                     Placa: ${placa}.
-                     Email: ${mail}.
-                     Telefono: ${telefono}.`;
+        const mensaje = `Hola, deseo inscribirme en el evento del día 14/09 en el Autódromo Vip a las 16:00hs.
+Nombre: ${nombre}
+Placa: ${placa}
+Email: ${mail}
+Telefono: ${telefono}`;
         // Codificar el mensaje para que sea válido en la URL
         const mensajeCodificado = encodeURIComponent(mensaje);
 
