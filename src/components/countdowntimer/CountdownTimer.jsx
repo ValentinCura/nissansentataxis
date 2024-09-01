@@ -53,7 +53,7 @@ const CountDownTimer = ({ targetDate }) => {
       <span className="p-3 flex items-center justify-center  md:w-[150px] md:h-[160px] md:p-5 bg-gradient-to-b via-inherit border-yellow-400 border-opacity-5 to-black text-yellow-400 md:text-9xl text-4xl font-anton">
       {timeRemaining.seconds}
         </span>
-        <p className='text-xl'>Seg</p>
+        <p className='text-xl'>Segundos</p>
       </div>
     </div>
 
