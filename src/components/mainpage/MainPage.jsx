@@ -15,7 +15,7 @@ const AutodromoPage = () => {
                         <span className="bg-blue-100 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-2">VIP</span>
                     </h1>
                     <div>
-                        <CountDownTimer targetDate="2024-09-14T16:00:00" />
+                        <CountDownTimer targetDate="2024-09-14T19:00:00" />
                     </div>
                 </div>
                 <div className="relative h-[200px] w-[300px] md:w-[600px] md:h-[400px] overflow-hidden">
