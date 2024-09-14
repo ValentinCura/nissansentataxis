@@ -31,12 +31,7 @@ const CountDownTimer = ({ targetDate }) => {
 
   return (
     <div className="grid font-bebas grid-flow-col gap-1 md:gap-9 text-center auto-cols-max text-5xl">
-      <div className="flex flex-col p-2 bg-neutral  text-neutral-content">
-        <span className="p-3 flex items-center justify-center  md:w-[150px] md:h-[160px] md:p-5 bg-gradient-to-b via-inherit border-yellow-400 border-opacity-5 to-black text-yellow-400 md:text-9xl text-4xl font-anton">
-          {timeRemaining.days}
-        </span>
-        <p className='text-xl'>Días</p>
-      </div>
+      
       <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
       <span className="p-3 flex items-center justify-center  md:w-[150px] md:h-[160px] md:p-5 bg-gradient-to-b via-inherit border-yellow-400 border-opacity-5 to-black text-yellow-400 md:text-9xl text-4xl font-anton">
       {timeRemaining.hours}
